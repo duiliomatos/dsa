@@ -1,0 +1,131 @@
+/*Theme Name: DSA Theme
+Author: Duílio Matos <duiliomtt@gmail.com>
+Description: Tema desenvolvido para avaliação de habilidades
+Version: 1.1
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #232323;
+  font-weight: 300;
+}
+
+h1{
+  font-size: 42px;
+  font-weight: 600;
+  color: #232323;
+}
+
+h2{
+  font-size: 32px;
+  font-weight: 400;
+  color: #BF5F0B;
+}
+
+h3, h4, h5{
+  font-size: 24px;
+  font-weight: 400;
+  color: #232323;
+}
+article{
+  margin: 30px 0 30px 0;
+}
+
+article, p{
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+article a{
+  color: #F2B84B;
+  text-decoration: none;
+}
+
+article a:hover{
+  text-decoration: underline;
+}
+main{
+  margin: 50px 0 30px 0;
+}
+
+.container{
+  max-width: 1140px;
+}
+
+.top{
+  padding: 30px 0 20px 0;
+  border-bottom: solid 1px #ebebeb;
+  margin-bottom: 20px;
+}
+
+.custom-logo{
+  max-width: 300px;
+  height: auto;
+}
+
+#menu-top{
+  margin-top: 20px;
+}
+
+#menu-top li{
+display: inline;
+}
+
+#menu-top li a{
+  margin-right: 30px;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+#menu-top li a:last-child {
+    margin-right: 0;
+}
+
+#menu-top li a:hover{
+  border-bottom: #F2B84B solid 2px;
+  color: #F2B84B;
+}
+
+#menu-top li ul{
+  display: none;
+}
+
+.main{
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+.secundary{
+  background-color: #416CA6;
+}
+
+.image-background{
+  width: 100%;
+  height: auto;
+}
+
+.image-aux{
+  padding: 20px;
+  width: 100%;
+}
+
+footer{
+  background-color: #BF5F0B;
+  padding: 40px 0 30px 0;
+  color: #ffffff;
+}
+
+.logo-footer{
+    max-width: 250px;
+    height: auto;
+}
