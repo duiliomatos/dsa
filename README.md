@@ -2,7 +2,7 @@
 
 Author: Duílio Matos <duiliomtt@gmail.com>
 Description: Tema desenvolvido para avaliação de habilidades
-Version: 1.0
+Version: 1.1
 Requires PHP: 5.6
 
 
@@ -18,6 +18,15 @@ A proposta compreende em um desenvolvimento de Tema WordPress:
 - Footer: Área inferior do tema, normalmente incluindo informações de contato, links adicionais e créditos.
 - Front Page: A página inicial do site, que pode apresentar conteúdo dinâmico ou estático.
 - Single Post/Page: Template usado para exibir um único post ou página em detalhes.
+- Integrar ao tema um novo Post Type chamado “Pet”, que deve incluir os seguintes campos personalizados:
+o Nome: O nome do pet.
+o Raça: A raça a qual o pet pertence.
+o Cor do Pelo: A coloração do pelo do pet.
+o Tamanho: O porte ou tamanho do pet.
+o Imagem Destacada: Uma imagem representativa do pet.
+Observação: Para facilitar a criação desses campos, pode-se utilizar o plugin Advanced Custom Fields (ACF) ou uma solução similar.
+- Criar o template Archive para o Post Type “Pet” listando os Pets cadastrados.
+- Desenvolver um template single específico para o Post Type “Pet” apresentando os campos do post type.
 
 ***Instalação do Tema***
 Para instalar o tema, faça o upload do arquivo em formato ".zip" na área de instalação de temas do painel do Wordpress.
@@ -43,6 +52,13 @@ O Tema possui duas áreas de widgets:
 
 1 - Rodapé do site: Poderá ser utilizado para adicionar endereços, contatos e links para redes sociais.
 2 - Página e Posts: localizado na lateral direita da página. Poderá ser adicionado widgets como arquivos, menus, vídeos entre outros.
+
+***Pets***
+Um Pet poderá ser adicionado acessando o painel de administração do WordPress > Pets > Novo Pet.
+Deverá de Informado o nome do Pet no campo Título.
+Logo depois preenchido os campos personalizados com os dados ncessários para cada pet e enviada uma imagem de destaque.
+Para listar todos os pets, deve-se criar um item de menu com o link http://www.nomedosite.com.br/pet/. Este link dará acesso a relação de todos pets cadastrados.
+Dessa forma, poderá também acessar o link para informações de cada pet separadamente.
 
 ***Dúvidas e Sugestões***
 Poderão ser enviadas para duiliomtt@gmail.com
