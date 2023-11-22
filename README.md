@@ -5,7 +5,6 @@ Description: Tema desenvolvido para avaliação de habilidades
 Version: 1.1
 Requires PHP: 5.6
 
-
 ***Sobre o Tema***
 
 Este tema foi desenvolvido como requisito avaliativo para candidatos à vaga de Analista de Desenvolvimento da DSA.
