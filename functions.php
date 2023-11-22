@@ -124,4 +124,31 @@ function widget_page() {
 }
 add_action( 'widgets_init', 'widget_page' );
 
+// Post type
+add_action( 'init', 'register_pet_post_type' );
+
+function register_pet_post_type() {
+    $labels = array(
+    'name'               => __( 'Pets' ),
+    'singular_name'      => __( 'Pet' ),
+    'add_new'            => __( 'Novo Pet' ),
+    'add_new_item'       => __( 'Novo Pet' ),
+    'edit_item'          => __( 'Editar Pet' ),
+    'new_item'           => __( 'Novo Pet' ),
+    'all_items'          => __( 'Listar Pets' ),
+    'view_item'          => __( 'Ver todos Pets' ),
+    'search_items'       => __( 'Buscar Pet' ),
+    'featured_image'     => 'Imagem',
+    'set_featured_image' => 'Adicioanar imagem'
+  );
+  $args = array(
+    'labels' => $labels,
+    'description' => 'Post Type',
+    'public' => true,
+    'has_archive' => true,
+    'supports' => array( 'title', 'thumbnail', 'custom-fields', 'post-formats' ),
+    'rewrite'  => array( 'slug' => 'pet' )
+  );
+  register_post_type( 'pets', $args );
+}
 ?>
