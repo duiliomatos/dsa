@@ -1,7 +1,7 @@
 ***Theme DSA***
 
 Author: Duílio Matos <duiliomtt@gmail.com>
-Description: Tema desenvolvido para avaliação de habilidades
+Description: Tema desenvolvido para avaliação de habilidades - DSA
 Version: 1.1
 Requires PHP: 5.6
 
